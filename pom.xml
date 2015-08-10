@@ -21,7 +21,7 @@
   </description>
 
 	<properties>
-		<project.entry>brooklyn.entity.flyway.SampleMain</project.entry>
+		<project.entry>brooklyn.cli.Main</project.entry>
 	</properties>
 
 	<repositories>

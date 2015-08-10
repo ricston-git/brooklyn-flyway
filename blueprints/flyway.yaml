@@ -1,0 +1,12 @@
+name: Flyway test
+
+location: localhost
+
+services:
+- type: brooklyn.entity.flyway.FlywayEntity
+  name: Flyway entity
+  brooklyn.config:
+    dbUrl: jdbc:mysql://localhost:3306/contactsdb
+    dbUser: contactsuser
+    dbPassword: contactspassword
+    scriptLocations: "filesystem:///Users/justin/flyway-migration-scripts"
